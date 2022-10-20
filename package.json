@@ -1,0 +1,88 @@
+{
+  "name": "guild-of-guilds-dapp",
+  "version": "2.0.0",
+  "private": true,
+  "homepage": "https://main.d1smdiefjw4q3n.amplifyapp.com",
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.8.0",
+    "@web3uikit/core": "^0.1.5",
+    "@web3uikit/icons": "^0.1.5",
+    "@web3uikit/web3": "^0.1.5",
+    "autoprefixer": "10.4.5",
+    "bootstrap": "^4.5.3",
+    "chart.js": "3.4.1",
+    "classnames": "2.3.1",
+    "console-browserify": "^1.2.0",
+    "cors": "^2.8.5",
+    "discord-oauth2": "^2.10.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "http-proxy-middleware": "^2.0.6",
+    "lamden-js": "^3.6.0",
+    "magic-sdk": "^9.0.0",
+    "match-sorter": "6.3.1",
+    "moment": "2.29.3",
+    "mongoose": "^6.6.2",
+    "moralis": "1.11.0",
+    "node": "^16.15.0",
+    "nouislider": "^14.6.3",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4",
+    "perfect-scrollbar": "1.5.5",
+    "postcss": "^8.4.14",
+    "prop-types": "15.8.1",
+    "react": ">=16.8.0",
+    "react-app-polyfill": "^3.0.0",
+    "react-big-calendar": "0.40.2",
+    "react-bootstrap-sweetalert": "5.2.0",
+    "react-bootstrap-wizard": "0.0.9",
+    "react-chartjs-2": "3.0.4",
+    "react-datetime": "3.1.1",
+    "react-dom": ">=16.8.0",
+    "react-jvectormap": "0.0.16",
+    "react-moralis": "1.4.0",
+    "react-notification-alert": "0.0.13",
+    "react-query": "^3.39.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^3.1.1",
+    "react-table": "^7.8.0",
+    "reactstrap": "^8.7.1",
+    "sass": "1.53.0",
+    "use-search-params": "^1.0.4"
+  },
+  "devDependencies": {
+    "sass": "1.53.0",
+    "toad-scheduler": "^1.6.1"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-flowtype": "8.0.3",
+    "typescript": "4.7.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "backend-start": "cd ../backend && node server.js",
+    "backend-install": "cd ../backend && npm install",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "sass src/assets/scss/black-dashboard-pro-react.scss src/assets/css/black-dashboard-pro-react.css",
+    "minify-sass": "sass src/assets/scss/black-dashboard-pro-react.scss src/assets/css/black-dashboard-pro-react.min.css --style compressed",
+    "dev": "nodemon ./src/api/server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
