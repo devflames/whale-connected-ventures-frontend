@@ -2,7 +2,7 @@
   "name": "guild-of-guilds-dapp",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://main.d1smdiefjw4q3n.amplifyapp.com",
+  "homepage": "https://www.guildofguilds.gg",
   "dependencies": {
     "@walletconnect/web3-provider": "^1.8.0",
     "@web3uikit/core": "^0.1.5",
@@ -63,8 +63,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "backend-start": "cd ../backend && node server.js",
-    "backend-install": "cd ../backend && npm install",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
